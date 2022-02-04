@@ -6,6 +6,7 @@ const app = express();
 
 app.use(cors());
 
+
 app.get('/api', function(req, res){
     console.log("CALLED API");
     res.send({result: 'Hellooooo'})
